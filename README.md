@@ -1,6 +1,6 @@
 # Invictus Assignment:    
 The web App shows the list of top most occuring words in tabular format after fetching the data from the given API.
-The web App is built using **ReactJS** along with hooks. For fetching the data from the API the library named **AXIOS** is used. It is a fully **responsive** website which is styled using the **latest CSS**. It is deployed on [NETLIFY](https://focused-mccarthy-15ab84.netlify.app "Deployed site") website.
+The web App is built using **ReactJS** along with hooks. For fetching the data from the API the library named **AXIOS** is used. It is styled using the **latest CSS**. The web app is deployed on [NETLIFY](https://focused-mccarthy-15ab84.netlify.app "Deployed site") website.
 
 ## COMPONENTS:
 ### 1.HomePage:
