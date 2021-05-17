@@ -23,13 +23,29 @@ After taking the input it shows the output in tabular format by rendering the ta
 
 
 ### 3.Warning:
-When user gives invalid intput like a negative number then this component renders a card which shows error message and the basic instructions.
+When user gives invalid intput like a negative number then this component renders a card which shows error message and the basic instructions to follow.
+
 
 ![chrome_2021-05-17_10-06-17](https://user-images.githubusercontent.com/75972049/118433008-a963cf00-b6f7-11eb-8a91-df8b39aebe26.png)
 
 
 ### 4.Steps:
-This component renders the basic steps/instructions for user to get them know how to use the website.
+This component renders the basic steps/instructions for user to get them know how to use the website. This will be rendered whenever the input field becomes empty.
 
 ![chrome_2021-05-17_09-48-52](https://user-images.githubusercontent.com/75972049/118431972-1aee4e00-b6f5-11eb-8e0e-30e3ab684e48.png)
  
+ ## Test Cases
+ ### 1. Negative or Zero as a Input 
+ A warning message will be shown with instructions it will dissapear when input changes and renders only when the wrong Input is given
+ 
+ ![chrome_2021-05-17_10-27-20](https://user-images.githubusercontent.com/75972049/118434314-7bcc5500-b6fa-11eb-9aaf-e3426cbc25e3.png)
+
+### 2. Input which exceeds the totals list of words 
+Again the warning tag will be rendered
+
+![chrome_2021-05-17_10-30-10](https://user-images.githubusercontent.com/75972049/118434638-03b25f00-b6fb-11eb-9306-b85e501ced7b.png)
+
+### 3. No Input
+A message will be shown saying this field is required. It is achieved by putting "required" property in input tag.
+
+![chrome_2021-05-17_10-33-08](https://user-images.githubusercontent.com/75972049/118434787-4b38eb00-b6fb-11eb-82d1-f093811b72ec.png)
