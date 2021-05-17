@@ -1,10 +1,10 @@
 # Invictus Assignment:    
 The web App shows the list of top most occuring words in tabular format after fetching the data from the given API.
-The web App is built using **ReactJS** along with hooks. For fetching the data from the API the library named **AXIOS** is used. It is styled using the **latest CSS**. The web app is deployed on [NETLIFY](https://focused-mccarthy-15ab84.netlify.app "Deployed site") website.
+The web App is built using **ReactJS** along with hooks. For fetching the data from the API by using the library named **AXIOS**. It is styled using the **latest CSS**. The web app is deployed on [NETLIFY](https://focused-mccarthy-15ab84.netlify.app "Deployed site") website.
 
 ## COMPONENTS:
 ### 1.HomePage:
-It shows basic structure of the website and fetches data by calling API using axios and performs the logical operations on the data to make it a list and arranging its component in decending order which was later shown to the user in INPUT component by passing the array of "words and their frequency of occurrence" via props.
+It shows basic structure of the website and fetches data by calling API using axios and performs the logical operations on the data to make a list and arranging its component in decending order of occurrence which was later shown to the user in INPUT component by passing the array of "words and their frequency of occurrence" via props.
 
 ![chrome_2021-05-17_09-45-47](https://user-images.githubusercontent.com/75972049/118432034-407b5780-b6f5-11eb-9bc2-6e43041640c6.png)
 
@@ -17,13 +17,13 @@ when clicked on the input field and entered any number submit button will appear
 
 ![chrome_2021-05-17_10-06-30](https://user-images.githubusercontent.com/75972049/118433217-1a0aeb80-b6f8-11eb-9aca-0b4045e7345f.png)
 
-After taking the input it shows the output in tabular format by rendering the table using "map" method.
+After taking the input it shows the output in tabular format by rendering the table using "map" method. 
 
 ![chrome_2021-05-17_10-17-12](https://user-images.githubusercontent.com/75972049/118433637-0f9d2180-b6f9-11eb-9ae6-6932c94ddc4c.png)
 
 
 ### 3.Warning:
-When user gives invalid intput like a negative number then this component renders a card which shows error message and the basic instructions to follow.
+When user gives invalid intput like a negative number then this component renders a card which shows error message and the basic instructions to follow and it can be dismissed by clicking the dismiss button or by changing the input.
 The cross icon is imported from [fontawesome](https://fontawesome.com/icons/times?style=solid)
 
 
@@ -37,12 +37,12 @@ This component renders the basic steps/instructions for user to get them know ho
  
  ## Test Cases
  ### 1. Negative or Zero as a Input 
- A warning message will be shown with instructions it will dissapear when input changes and renders only when the wrong Input is given
+ A warning message will be shown with instructions it will dissapear when input changes or when pressed dismissed button and renders only when the wrong Input is given.
  
  ![chrome_2021-05-17_10-27-20](https://user-images.githubusercontent.com/75972049/118434314-7bcc5500-b6fa-11eb-9aaf-e3426cbc25e3.png)
 
 ### 2. Input which exceeds the totals list of words 
-Again the warning tag will be rendered
+Again the warning tag will be rendered.
 
 ![chrome_2021-05-17_10-30-10](https://user-images.githubusercontent.com/75972049/118434638-03b25f00-b6fb-11eb-9306-b85e501ced7b.png)
 
