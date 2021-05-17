@@ -24,6 +24,7 @@ After taking the input it shows the output in tabular format by rendering the ta
 
 ### 3.Warning:
 When user gives invalid intput like a negative number then this component renders a card which shows error message and the basic instructions to follow.
+The cross icon is imported from [fontawesome](https://fontawesome.com/icons/times?style=solid)
 
 
 ![chrome_2021-05-17_10-06-17](https://user-images.githubusercontent.com/75972049/118433008-a963cf00-b6f7-11eb-8a91-df8b39aebe26.png)
